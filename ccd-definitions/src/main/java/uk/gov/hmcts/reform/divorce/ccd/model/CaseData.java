@@ -266,7 +266,7 @@ public class CaseData {
 
     @CCD(
         label = "Is petitioners home address an international address?",
-        access = { DefaultAccess.class }
+        access = {DefaultAccess.class}
     )
     private YesOrNo petitionerHomeAddressIsInternational;
 
@@ -402,7 +402,7 @@ public class CaseData {
         label = "Petitioner wants/will to apply to have the papers served to the respondent another way.",
         hint = "For example by email, text message or social media. This is a separate application with "
             + "an additional fee, which will need to be reviewed by a judge.",
-        access = { DefaultAccess.class }
+        access = {DefaultAccess.class}
     )
     private YesOrNo petitionerWantsToHavePapersServedAnotherWay;
 
@@ -515,32 +515,40 @@ public class CaseData {
 
     @CCD(
         label = "Do you know their address",
-        access = { DefaultAccess.class }
+        access = {DefaultAccess.class}
     )
     private YesOrNo petitionerKnowsRespondentsAddress;
 
     @CCD(
         label = "Respondents home address",
         typeOverride = TextArea,
-        access = { DefaultAccess.class }
+        access = {DefaultAccess.class}
     )
     private String derivedRespondentHomeAddress;
 
     @CCD(
         label = "Is respondents home address an international address?",
-        access = { DefaultAccess.class }
+        access = {DefaultAccess.class}
     )
     private YesOrNo respondentHomeAddressIsInternational;
 
     @CCD(
         label = "Any other legal proceedings relating to your civil partnership, property or children?",
-        access = { DefaultAccess.class }
+        access = {DefaultAccess.class}
     )
     private YesOrNo legalProceedings;
 
     @CCD(
+        label = "Legal proceeding details",
+        hint = "Include the case number(s), if known.",
+        typeOverride = TextArea,
+        access = {DefaultAccess.class}
+    )
+    private String legalProceedingsDetails;
+
+    @CCD(
         label = "What do the legal proceedings relate to?",
-        access = { DefaultAccess.class }
+        access = {DefaultAccess.class}
     )
     private Set<LegalProceedingsRelated> legalProceedingsRelated;
 

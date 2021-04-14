@@ -8,7 +8,7 @@ import uk.gov.hmcts.reform.idam.client.IdamClient;
 import uk.gov.hmcts.reform.idam.client.models.User;
 import uk.gov.hmcts.reform.idam.client.models.UserDetails;
 
-import static uk.gov.hmcts.divorce.api.constants.ControllerConstants.BEARER_PREFIX;
+import static uk.gov.hmcts.divorce.api.constant.ControllerConstants.BEARER_PREFIX;
 
 @Service
 public class IdamService {

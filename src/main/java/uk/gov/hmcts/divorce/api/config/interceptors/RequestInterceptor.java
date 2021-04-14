@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
-import uk.gov.hmcts.divorce.api.exceptions.UnAuthorisedServiceException;
+import uk.gov.hmcts.divorce.api.exception.UnAuthorisedServiceException;
 import uk.gov.hmcts.reform.authorisation.validators.AuthTokenValidator;
 
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import static uk.gov.hmcts.divorce.api.constants.ControllerConstants.SERVICE_AUTHORIZATION;
+import static uk.gov.hmcts.divorce.api.constant.ControllerConstants.SERVICE_AUTHORIZATION;
 
 @Slf4j
 @Component

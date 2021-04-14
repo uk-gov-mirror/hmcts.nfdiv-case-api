@@ -38,7 +38,7 @@ import static uk.gov.hmcts.divorce.api.TestConstants.TEST_AUTHORIZATION_TOKEN;
 import static uk.gov.hmcts.divorce.api.TestConstants.TEST_FIRST_NAME;
 import static uk.gov.hmcts.divorce.api.TestConstants.TEST_LAST_NAME;
 import static uk.gov.hmcts.divorce.api.TestConstants.TEST_USER_EMAIL;
-import static uk.gov.hmcts.divorce.api.ccd.event.solicitor.SolicitorCreate.SOLICITOR_CREATE;
+import static uk.gov.hmcts.divorce.api.solicitor.SolicitorCreate.SOLICITOR_CREATE;
 import static uk.gov.hmcts.divorce.api.util.TestDataHelper.callbackRequest;
 
 @ExtendWith(SpringExtension.class)

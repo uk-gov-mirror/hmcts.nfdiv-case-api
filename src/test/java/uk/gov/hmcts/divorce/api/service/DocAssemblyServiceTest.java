@@ -9,7 +9,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import uk.gov.hmcts.divorce.api.clients.DocAssemblyClient;
+import uk.gov.hmcts.divorce.api.client.DocAssemblyClient;
 import uk.gov.hmcts.divorce.api.model.DocumentInfo;
 import uk.gov.hmcts.divorce.api.model.docassembly.DocAssemblyRequest;
 import uk.gov.hmcts.divorce.api.model.docassembly.DocAssemblyResponse;

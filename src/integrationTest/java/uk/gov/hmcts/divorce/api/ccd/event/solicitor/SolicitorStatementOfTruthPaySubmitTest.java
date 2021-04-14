@@ -62,7 +62,7 @@ import static uk.gov.hmcts.divorce.api.TestConstants.SERVICE_AUTHORIZATION;
 import static uk.gov.hmcts.divorce.api.TestConstants.SOLICITOR_USER_ID;
 import static uk.gov.hmcts.divorce.api.TestConstants.TEST_AUTHORIZATION_TOKEN;
 import static uk.gov.hmcts.divorce.api.TestConstants.TEST_USER_EMAIL;
-import static uk.gov.hmcts.divorce.api.ccd.event.solicitor.SolicitorStatementOfTruthPaySubmit.SOLICITOR_STATEMENT_OF_TRUTH_PAY_SUBMIT;
+import static uk.gov.hmcts.divorce.api.solicitor.SolicitorStatementOfTruthPaySubmit.SOLICITOR_STATEMENT_OF_TRUTH_PAY_SUBMIT;
 import static uk.gov.hmcts.divorce.api.util.TestDataHelper.callbackRequest;
 import static uk.gov.hmcts.divorce.api.util.TestDataHelper.caseData;
 import static uk.gov.hmcts.divorce.api.util.TestDataHelper.getFeeResponse;

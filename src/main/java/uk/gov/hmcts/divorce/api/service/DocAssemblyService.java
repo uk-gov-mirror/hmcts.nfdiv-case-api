@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import uk.gov.hmcts.divorce.api.ccd.model.CaseData;
-import uk.gov.hmcts.divorce.api.clients.DocAssemblyClient;
+import uk.gov.hmcts.divorce.api.client.DocAssemblyClient;
 import uk.gov.hmcts.divorce.api.model.DocumentInfo;
 import uk.gov.hmcts.divorce.api.model.docassembly.DocAssemblyRequest;
 import uk.gov.hmcts.divorce.api.model.docassembly.DocAssemblyResponse;

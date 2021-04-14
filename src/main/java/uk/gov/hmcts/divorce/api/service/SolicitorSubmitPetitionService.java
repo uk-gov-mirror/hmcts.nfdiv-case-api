@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import uk.gov.hmcts.ccd.sdk.type.Fee;
 import uk.gov.hmcts.ccd.sdk.type.ListValue;
 import uk.gov.hmcts.ccd.sdk.type.OrderSummary;
-import uk.gov.hmcts.divorce.api.clients.FeesAndPaymentsClient;
+import uk.gov.hmcts.divorce.api.client.FeesAndPaymentsClient;
 import uk.gov.hmcts.divorce.api.model.payments.FeeResponse;
 
 import static java.util.Collections.singletonList;

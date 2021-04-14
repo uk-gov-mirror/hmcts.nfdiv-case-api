@@ -14,7 +14,7 @@ import static org.springframework.http.HttpStatus.UNAUTHORIZED;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 import static uk.gov.hmcts.divorce.api.TestResourceUtil.SUBMITTED_CALLBACK_URL;
 import static uk.gov.hmcts.divorce.api.ccd.event.SaveAndClose.SAVE_AND_CLOSE;
-import static uk.gov.hmcts.divorce.api.constants.ControllerConstants.SERVICE_AUTHORIZATION;
+import static uk.gov.hmcts.divorce.api.constant.ControllerConstants.SERVICE_AUTHORIZATION;
 
 @SpringBootTest
 public class ServiceAuthValidationTest extends FunctionalTestSuite {
